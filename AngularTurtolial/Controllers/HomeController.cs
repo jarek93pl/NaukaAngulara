@@ -13,5 +13,9 @@ namespace AngularTurtolial.Controllers
         {
             return View();
         }
+        public PartialViewResult ListProduct()
+        {
+            return PartialView();
+        }
     }
 }
